@@ -1,0 +1,47 @@
+body {
+  background-color: azure;
+  font-family: "Oswald", sans-serif;
+}
+/* header */
+.button_header {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(220, 106, 0);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.header__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_title {
+  color: rgba(253, 6, 6, 0.664);
+  font-weight: 700;
+  font-size: 36px;
+  width: 60%;
+}
+.header_text_history {
+  color: rgba(26, 25, 25, 0.603);
+  width: 35%;
+  margin: 0 auto;
+}
+
+/* main */
+.main__image {
+  width: 585px;
+}
